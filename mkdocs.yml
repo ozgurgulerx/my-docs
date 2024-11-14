@@ -1,6 +1,19 @@
 site_name: My Documentation
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/library  # You can replace this with another Material icon or upload a custom one.
+  logo: images/logo.png  # Add a custom logo image in your `docs/images` folder
 
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Commands: commands.md
+  - Project Layout: project-layout.md
 
