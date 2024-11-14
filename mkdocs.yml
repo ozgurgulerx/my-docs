@@ -14,6 +14,16 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Commands: commands.md
+  - DSpy:
+    - Introduction: dspy/overview.md
+    - Installation: dspy/getting-started.md
+    - Examples: dspy/examples.md
+
+
+  - Graph RAG: 
+    - Introduction: graph-rag/overview.md
+    - Building a Knowledge Graph : graph-rag/knowledge-graph.md
+    - GraphRAG : graph-rag/graph-rag.md
+    - GraphAttention: graph-rag/graph-attention.md
   - Project Layout: project-layout.md
 
