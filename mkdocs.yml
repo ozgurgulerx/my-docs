@@ -14,16 +14,19 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - DSpy:
+  - DSpy (2410):
     - Introduction: dspy/overview.md
     - Installation: dspy/getting-started.md
     - Examples: dspy/examples.md
 
-
-  - Graph RAG: 
+  - Graph RAG (2411): 
     - Introduction: graph-rag/overview.md
+    - Knowledge Graphs: graph-rag/knowledge-graph.md
     - Building a Knowledge Graph : graph-rag/knowledge-graph.md
     - GraphRAG : graph-rag/graph-rag.md
-    - GraphAttention: graph-rag/graph-attention.md
+    - Graph Index vs RDF Graph db : graph-rag/graph-index-vs-rdf.md
+    - LLM Grounding with GraphRAG : graph-rag/grounding.md
+    - LLM Reasoning with GraphRAG : graph-rag/reasoning.mde
+    - GraphAttention with GNN's: graph-rag/graph-attention.md
   - Project Layout: project-layout.md
 
