@@ -1,0 +1,44 @@
+site_name: cloudatlas.blog
+site_url: https://cloudatlas.blog
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    logo: material/library
+  logo: images/logo.jpeg
+
+nav:
+  - Home: index.md
+
+  - GraphRAG:
+      - GraphRAG: graphrag/graphrag.md
+
+  - Consulting:
+      - Consulting Services: consulting/consulting-services.md
+  
+  - AI for BusinessExecutives:
+      - AI for Business: ai-for-business/ai-for-business.md
+  - Writing:
+      - AI Investments: writing/ai-investments.md
+      - Diffusion Transformers: writing/diffusion-transformers.md
+      - DSPy: writing/dspy.md
+      - Gaming AI: writing/gaming-ai.md
+      - Graph Neural Networks: writing/graph-neural-networks.md
+      - Graph RAG: writing/graph-rag.md
+      - Reinforcement Learning: writing/reinforcement-learning.md
+      - State Space Models: writing/state-space-models.md
+
+
+plugins:
+  - search
