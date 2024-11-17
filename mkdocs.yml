@@ -3,15 +3,15 @@ site_url: https://cloudatlas.blog
 
 theme:
   name: material
+
   features:
     - navigation.tabs        # Enables horizontal navigation
     - navigation.top         # Ensures the navigation is at the top
     - navigation.instant     # Improves loading speed for tabs
     - navigation.expand      # Expands navigation on small screens for better usability
-  palette:
-    scheme: slate            # High-contrast slate scheme
+  palette:           # High-contrast slate scheme
     primary: indigo
-    accent: teal             # Teal for better contrast with indigo
+    accent: indigo             # Teal for better contrast with indigo
   font:
     text: Roboto             # Consistent, clean sans-serif font
     code: Roboto Mono        # Monospace font for code
