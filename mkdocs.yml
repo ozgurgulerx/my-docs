@@ -21,16 +21,13 @@ theme:
 nav:
   - Home: index.md
 
-  - GraphRAG:
-      - GraphRAG: graphrag/graphrag.md
-
   - Consulting:
       - Consulting Services: consulting/consulting-services.md
   
   - AI for BusinessExecutives:
       - AI for Business: ai-for-business/ai-for-business.md
   - Writing:
-      - AI Investmentsx: writing/ai-investments.md
+      - AI Investments: writing/ai-investments.md
       - Diffusion Transformers: writing/diffusion-transformers.md
       - DSPy: writing/dspy.md
       - Gaming AI: writing/gaming-ai.md
@@ -40,6 +37,8 @@ nav:
       - State Space Models: writing/state-space-models.md
   - Books:
       - Books: books/books.md
+  - GraphRAG:
+      - GraphRAG: graphrag/graphrag.md
 
 
 plugins:
