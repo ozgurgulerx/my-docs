@@ -33,6 +33,16 @@ body {
 .md-sidebar {
     background-color: #ffffff; /* White background */
 }
+
+.md-sidebar .md-nav__item--active {
+    background-color: #e0e7ff !important;
+    box-shadow: none !important;
+}
+
+.md-sidebar .md-nav__item {
+    background-color: #ffffff !important;
+}
+
 /* Sidebar Fix: Active and Non-Active States */
 .md-nav__item--active {
     background-color: #e0e7ff !important; /* Light Indigo for active item */
