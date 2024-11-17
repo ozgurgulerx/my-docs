@@ -1,19 +1,10 @@
 # Welcome to CloudAtlas
 
 🚀 **AI Consulting and Innovation**
-Hi, I’m Ozgur Guler, an AI Cloud Solutions Architect and consultant specializing in building generative AI solutions in the cloud. I help Startups & businesses leverage cutting-edge AI technologies to drive innovation and scale effectively.
+Hi, I’m Ozgur Guler, an AI Cloud Solutions Architect, consultant and a startup advisor. I specialize in building generative AI solutions. I write about AI technology, AI investments landscape and building in the cloud.
 
-At CloudAtlas, we empower businesses with cutting-edge AI solutions. Explore our services, projects, and thought leadership.
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://example.com/newsletter" target="_blank" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Subscribe to my Newsletter</a>
+  <a href="https://example.com/contact" target="_blank" style="padding: 10px 20px; background-color: white; color: #007bff; text-decoration: none; border: 2px solid #007bff; border-radius: 5px; font-weight: bold;">Work with me</a>
+</div>
 
-## Services We Offer
-- **AI Consulting**
-- **Custom ML Solutions**
-- **Generative AI Workshops**
-
-## Featured Projects
-[View More Projects](graphrag/index.md)
-
----
-
-Contact us at [hello@cloudatlas.blog](mailto:hello@cloudatlas.blog).
- 
