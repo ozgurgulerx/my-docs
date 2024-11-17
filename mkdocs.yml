@@ -4,27 +4,30 @@ site_url: https://cloudatlas.blog
 theme:
   name: material
   features:
-    - navigation.tabs
+    - navigation.tabs        # Enables horizontal navigation
+    - navigation.top         # Ensures the navigation is at the top
+    - navigation.instant     # Improves loading speed for tabs
+    - navigation.expand      # Expands navigation on small screens for better usability
   palette:
-    scheme: default
+    scheme: slate            # High-contrast slate scheme
     primary: indigo
-    accent: indigo
-
+    accent: teal             # Teal for better contrast with indigo
   font:
-    text: Roboto
-    code: Roboto Mono
-
+    text: Roboto             # Consistent, clean sans-serif font
+    code: Roboto Mono        # Monospace font for code
   icon:
     logo: material/library
-  logo: images/logo.jpeg
+  logo: images/logo.jpeg     # Custom logo for the site
+  favicon: images/favicon.ico # Add a favicon for a polished look
+
+extra_css:
+  - assets/styles/custom.css # Custom CSS for advanced styling
 
 nav:
   - Home: index.md
-
   - Consulting:
       - Consulting Services: consulting/consulting-services.md
-  
-  - AI for BusinessExecutives:
+  - AI for Business Executives:
       - AI for Business: ai-for-business/ai-for-business.md
   - Writing:
       - AI Investments: writing/ai-investments.md
@@ -39,7 +42,6 @@ nav:
       - Books: books/books.md
   - GraphRAG:
       - GraphRAG: graphrag/graphrag.md
-
 
 plugins:
   - search
