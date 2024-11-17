@@ -38,6 +38,8 @@ nav:
       - Graph RAG: writing/graph-rag.md
       - Reinforcement Learning: writing/reinforcement-learning.md
       - State Space Models: writing/state-space-models.md
+  -Books:
+      - Books: books/books.md
 
 
 plugins:
