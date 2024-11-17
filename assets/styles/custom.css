@@ -180,16 +180,116 @@ body {
 
 /* Adjustments for Footer */
 .md-footer {
-    background-color: #f8f9fa; /* Light grey */
-    padding: 20px;
+    background-color: #a5b4fc !important; /* Lighter Indigo */
+    color: #333333; /* Dark text for readability */
+    padding: 20px 10px; /* Increased padding for clarity */
     text-align: center;
+    border-top: none; /* Remove border if present */
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative; /* Ensure proper stacking */
+    z-index: 10; /* Prevent overlap issues */
 }
 
+/* Ensure Footer Content Stacks */
+.md-footer__wrapper {
+    background-color: #a5b4fc; /* Match footer background */
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column; /* Stack elements */
+    align-items: center; /* Center content */
+    gap: 10px; /* Add spacing between elements */
+}
+
+/* Styling for Default Footer Message */
+.md-footer .md-footer__credits {
+    font-size: 12px;
+    color: #333333; /* Match overall text color */
+    margin-top: 10px;
+}
+
+/* Custom Footer Message */
+.md-footer .custom-footer-message {
+    font-size: 14px;
+    color: #4f46e5; /* Indigo for contrast */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer Links */
 .md-footer a {
-    color: #4f46e5; /* Indigo links in footer */
+    color: #4f46e5; /* Indigo links */
     text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .md-footer a:hover {
+    color: #4338ca; /* Darker Indigo on hover */
     text-decoration: underline;
+}
+
+/* Footer Social Icons */
+.md-footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.md-footer .social-icons a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.md-footer .social-icons a:hover {
+    color: #e0e7ff; /* Lighter Indigo hover */
+}
+
+/* Footer Navigation */
+.md-footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.md-footer-nav .md-footer-nav__link {
+    color: #4f46e5; /* Indigo navigation links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.md-footer-nav .md-footer-nav__link:hover {
+    color: #4338ca; /* Darker Indigo on hover */
+    text-decoration: underline;
+}
+
+/* Fix Overlap */
+/* Fix Overlap */
+.md-footer-container {
+    margin-top: 40px; /* Add sufficient space between sections */
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Adjust Bottom Bar */
+.md-footer__bar {
+    background-color: #7f9cf5; /* Match a slightly darker Indigo */
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    z-index: 2;
+}
+/* Append Custom Footer Content */
+.md-footer__credits::after {
+    content: " | Copyright © 2024 Ozgur Guler";
+    color: #4f46e5;
+    font-weight: bold;
 }
