@@ -5,70 +5,120 @@ body {
     line-height: 1.6;
     color: #333333; /* Dark text for readability on white background */
     background-color: #ffffff; /* Set background to white */
-  }
-  
-  /* Top Banner (Navigation Bar) */
-  .md-header, .md-tabs {
+}
+
+/* Top Banner (Navigation Bar) */
+.md-header, .md-tabs {
     background-color: #4f46e5; /* Indigo */
     color: #ffffff; /* White text for high contrast */
     border-bottom: none;
-  }
-  
-  .md-header__title {
+}
+
+.md-header__title {
     color: #ffffff; /* Ensure the site name is visible */
     font-weight: bold; /* Highlight site name */
-  }
-  
-  .md-header__link, .md-nav__link {
+}
+
+.md-header__link, .md-nav__link {
     color: #ffffff; /* White navigation links */
     font-weight: 500; /* Slightly bold for readability */
     transition: color 0.3s ease-in-out;
-  }
-  
-  .md-header__link:hover, .md-nav__link:hover {
+}
+
+.md-header__link:hover, .md-nav__link:hover {
     color: #b3c4ff; /* Slightly lighter Indigo for hover */
-  }
-  
-  .md-nav__link--active {
-    color: #ffb74d; /* Accent color for active tab */
-    border-bottom: 3px solid #ffb74d; /* Underline for active link */
-  }
-  
-  /* Sidebar Fix (Home Section) */
-  .md-sidebar {
-    background-color: #ffffff; /* White background to match site */
-  }
-  
-  .md-sidebar__link {
-    color: #333333; /* Dark text for visibility */
-  }
-  
-  .md-sidebar__link:hover {
+}
+
+/* Sidebar Background */
+.md-sidebar {
+    background-color: #ffffff; /* White background */
+}
+/* Sidebar Fix: Active and Non-Active States */
+.md-nav__item--active {
+    background-color: #e0e7ff !important; /* Light Indigo for active item */
+    box-shadow: none !important; /* Remove shadow effect */
+}
+
+.md-nav__item {
+    background-color: #ffffff; /* Ensure non-active items have white background */
+}
+
+.md-nav__link {
+    color: #4f46e5; /* Indigo text for links */
+}
+
+/* Active Navigation Link */
+.md-nav__link--active {
+    background-color: #e0e7ff; /* Light Indigo for active item */
+    color: #4f46e5; /* Indigo text */
+    border-bottom: 3px solid #ffb74d; /* Orange underline */
+    box-shadow: none; /* Remove shadow */
+}
+
+/* Sidebar Links Hover */
+.md-nav__link:hover {
+    background-color: #f3f4f6; /* Light gray on hover */
+    color: #4f46e5; /* Indigo text */
+}
+
+/* Remove Shadow from Sidebar */
+.md-nav {
+    box-shadow: none !important; /* Remove any lingering shadows */
+}
+
+
+.md-sidebar__link {
+    color: #4f46e5; /* Dark text for visibility */
+}
+
+.md-sidebar__link:hover {
     color: #4f46e5; /* Indigo hover effect */
-  }
-  
-  /* Hero Section */
-  .hero {
+}
+
+/* Main Content Area */
+.md-content {
+    padding: 20px; /* Add some spacing around the content */
+}
+
+/* Headings */
+.md-content h1 {
+    color: #6B5CFB;; /* Indigo for high contrast */
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: left; /* Center align for better focus */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.md-content h2, .md-content h3, .md-content h4 {
+    color: #333333; /* Use dark text for other headings */
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
     background: #ffffff; /* White background */
     color: #333333; /* Dark text for readability */
     padding: 50px 20px;
     text-align: center;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
-  }
-  
-  .hero h1 {
-    font-size: 2.5rem;
+}
+
+.hero h1 {
+    color: #4f46e5; /* Indigo for high contrast */
     font-weight: bold;
-    color: #4f46e5; /* Indigo for high contrast against white */
-  }
-  
-  .hero p {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero p {
     font-size: 1.2rem;
-    color: #555555; /* Dark grey for description */
-  }
-  
-  .hero a {
+    color: #333333; /* Dark grey for description */
+}
+
+.hero a {
     margin-top: 20px;
     display: inline-block;
     padding: 10px 20px;
@@ -78,42 +128,58 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .hero a:hover {
+}
+
+.hero a:hover {
     background-color: #ffb74d; /* Accent color */
     color: #ffffff; /* Keep text white on hover */
-  }
-  
-  /* Buttons (Match Banner and Accent Colors) */
-  .button {
+}
+
+/* Buttons */
+.button {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .button-primary {
-    background-color: #4f46e5; /* Indigo */
-    color: white;
-    border: none;
-  }
-  
-  .button-primary:hover {
-    background-color: #4338ca; /* Darker Indigo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .button-secondary {
+}
+
+.button-primary {
     background-color: transparent;
     color: #4f46e5; /* Indigo */
     border: 2px solid #4f46e5;
-  }
-  
-  .button-secondary:hover {
-    background-color: #ffb74d; /* Accent color */
-    color: #ffffff; /* White text */
+}
+
+.button-primary:hover {
+    background-color: #4338ca; /* Darker Indigo */
+    color: #ffffff !important; /* Keep white text on hover */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: #4f46e5; /* Indigo */
+    border: 2px solid #4f46e5;
+}
+
+.button-secondary:hover {
+    background-color: #4338ca; /* Darker Indigo */
+    color: #ffffff !important; /* Keep white text on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjustments for Footer */
+.md-footer {
+    background-color: #f8f9fa; /* Light grey */
+    padding: 20px;
+    text-align: center;
+}
+
+.md-footer a {
+    color: #4f46e5; /* Indigo links in footer */
+    text-decoration: none;
+}
+
+.md-footer a:hover {
+    text-decoration: underline;
+}
