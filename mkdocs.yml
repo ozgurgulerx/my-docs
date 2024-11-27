@@ -19,7 +19,6 @@ theme:
     code: Roboto Mono        # Monospace font for code
   icon:
     logo: material/library
-  logo: images/logo.jpeg     # Custom logo for the site
   favicon: images/favicon.ico # Add a favicon for a polished look
 
 extra_css:
@@ -32,6 +31,7 @@ nav:
   - AI for Business Executives:
       - AI for Business: ai-for-business/ai-for-business.md
   - Writing:
+      - Top Articles: writing/top-articles.md
       - AI Investments: writing/ai-investments.md
       - Diffusion Transformers: writing/diffusion-transformers.md
       - DSPy: writing/dspy.md
